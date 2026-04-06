@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 100;
 	objects = {
 
 /* Begin PBXFileReference section */
@@ -57,6 +57,13 @@
 			);
 			target = 37F549992F81E1C300950D12 /* PongClone macOS */;
 		};
+		37F549C02F81E39900950D12 /* Exceptions for "PongClone macOS" folder in "PongClone macOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"PongClone-macOS-Info.plist",
+			);
+			target = 37F549992F81E1C300950D12 /* PongClone macOS */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -88,6 +95,9 @@
 		};
 		37F5499B2F81E1C300950D12 /* PongClone macOS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				37F549C02F81E39900950D12 /* Exceptions for "PongClone macOS" folder in "PongClone macOS" target */,
+			);
 			path = "PongClone macOS";
 			sourceTree = "<group>";
 		};
@@ -96,24 +106,18 @@
 /* Begin PBXFrameworksBuildPhase section */
 		37F549762F81E1C300950D12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		37F549872F81E1C300950D12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		37F549972F81E1C300950D12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -152,14 +156,10 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			fileSystemSynchronizedGroups = (
 				37F5497B2F81E1C300950D12 /* PongClone iOS */,
 			);
 			name = "PongClone iOS";
-			packageProductDependencies = (
-			);
 			productName = "PongClone iOS";
 			productReference = 37F549792F81E1C300950D12 /* PongClone.app */;
 			productType = "com.apple.product-type.application";
@@ -174,14 +174,10 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			fileSystemSynchronizedGroups = (
 				37F5498B2F81E1C300950D12 /* PongClone tvOS */,
 			);
 			name = "PongClone tvOS";
-			packageProductDependencies = (
-			);
 			productName = "PongClone tvOS";
 			productReference = 37F5498A2F81E1C300950D12 /* PongClone.app */;
 			productType = "com.apple.product-type.application";
@@ -196,14 +192,10 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			fileSystemSynchronizedGroups = (
 				37F5499B2F81E1C300950D12 /* PongClone macOS */,
 			);
 			name = "PongClone macOS";
-			packageProductDependencies = (
-			);
 			productName = "PongClone macOS";
 			productReference = 37F5499A2F81E1C300950D12 /* PongClone.app */;
 			productType = "com.apple.product-type.application";
@@ -238,7 +230,7 @@
 			);
 			mainGroup = 37F5496B2F81E1C200950D12;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
+			preferredProjectObjectVersion = 100;
 			productRefGroup = 37F5497A2F81E1C300950D12 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -253,53 +245,41 @@
 /* Begin PBXResourcesBuildPhase section */
 		37F549772F81E1C300950D12 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		37F549882F81E1C300950D12 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		37F549982F81E1C300950D12 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		37F549752F81E1C300950D12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		37F549862F81E1C300950D12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		37F549962F81E1C300950D12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		37F549B12F81E1C300950D12 /* Debug */ = {
+		37F549B12F81E1C300950D12 /* Debug configuration for PBXNativeTarget "PongClone iOS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -309,12 +289,14 @@
 				DEVELOPMENT_TEAM = YQR2E4PRF4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PongClone iOS/Info.plist";
+				INFOPLIST_KEY_GCSupportsControllerUserInteraction = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,6 +306,9 @@
 				PRODUCT_NAME = PongClone;
 				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -333,7 +318,7 @@
 			};
 			name = Debug;
 		};
-		37F549B22F81E1C300950D12 /* Release */ = {
+		37F549B22F81E1C300950D12 /* Release configuration for PBXNativeTarget "PongClone iOS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -343,12 +328,14 @@
 				DEVELOPMENT_TEAM = YQR2E4PRF4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PongClone iOS/Info.plist";
+				INFOPLIST_KEY_GCSupportsControllerUserInteraction = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +345,9 @@
 				PRODUCT_NAME = PongClone;
 				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -368,7 +358,7 @@
 			};
 			name = Release;
 		};
-		37F549B62F81E1C300950D12 /* Debug */ = {
+		37F549B62F81E1C300950D12 /* Debug configuration for PBXNativeTarget "PongClone tvOS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
@@ -378,6 +368,8 @@
 				DEVELOPMENT_TEAM = YQR2E4PRF4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PongClone tvOS/Info.plist";
+				INFOPLIST_KEY_GCSupportsControllerUserInteraction = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
@@ -396,11 +388,11 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 26.5;
+				TVOS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Debug;
 		};
-		37F549B72F81E1C300950D12 /* Release */ = {
+		37F549B72F81E1C300950D12 /* Release configuration for PBXNativeTarget "PongClone tvOS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
@@ -410,6 +402,8 @@
 				DEVELOPMENT_TEAM = YQR2E4PRF4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PongClone tvOS/Info.plist";
+				INFOPLIST_KEY_GCSupportsControllerUserInteraction = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
@@ -428,12 +422,12 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 26.5;
+				TVOS_DEPLOYMENT_TARGET = 26.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		37F549BB2F81E1C300950D12 /* Debug */ = {
+		37F549BB2F81E1C300950D12 /* Debug configuration for PBXNativeTarget "PongClone macOS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -446,6 +440,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PongClone-macOS-Info.plist";
+				INFOPLIST_KEY_GCSupportsControllerUserInteraction = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -453,7 +450,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.2130games.PongClone;
 				PRODUCT_NAME = PongClone;
@@ -468,7 +465,7 @@
 			};
 			name = Debug;
 		};
-		37F549BC2F81E1C300950D12 /* Release */ = {
+		37F549BC2F81E1C300950D12 /* Release configuration for PBXNativeTarget "PongClone macOS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -481,6 +478,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PongClone-macOS-Info.plist";
+				INFOPLIST_KEY_GCSupportsControllerUserInteraction = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -488,7 +488,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.2130games.PongClone;
 				PRODUCT_NAME = PongClone;
@@ -503,7 +503,7 @@
 			};
 			name = Release;
 		};
-		37F549BD2F81E1C300950D12 /* Debug */ = {
+		37F549BD2F81E1C300950D12 /* Debug configuration for PBXProject "PongClone" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -565,7 +565,7 @@
 			};
 			name = Debug;
 		};
-		37F549BE2F81E1C300950D12 /* Release */ = {
+		37F549BE2F81E1C300950D12 /* Release configuration for PBXProject "PongClone" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -625,37 +625,33 @@
 		37F5496F2F81E1C200950D12 /* Build configuration list for PBXProject "PongClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37F549BD2F81E1C300950D12 /* Debug */,
-				37F549BE2F81E1C300950D12 /* Release */,
+				37F549BD2F81E1C300950D12 /* Debug configuration for PBXProject "PongClone" */,
+				37F549BE2F81E1C300950D12 /* Release configuration for PBXProject "PongClone" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		37F549B02F81E1C300950D12 /* Build configuration list for PBXNativeTarget "PongClone iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37F549B12F81E1C300950D12 /* Debug */,
-				37F549B22F81E1C300950D12 /* Release */,
+				37F549B12F81E1C300950D12 /* Debug configuration for PBXNativeTarget "PongClone iOS" */,
+				37F549B22F81E1C300950D12 /* Release configuration for PBXNativeTarget "PongClone iOS" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		37F549B52F81E1C300950D12 /* Build configuration list for PBXNativeTarget "PongClone tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37F549B62F81E1C300950D12 /* Debug */,
-				37F549B72F81E1C300950D12 /* Release */,
+				37F549B62F81E1C300950D12 /* Debug configuration for PBXNativeTarget "PongClone tvOS" */,
+				37F549B72F81E1C300950D12 /* Release configuration for PBXNativeTarget "PongClone tvOS" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		37F549BA2F81E1C300950D12 /* Build configuration list for PBXNativeTarget "PongClone macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37F549BB2F81E1C300950D12 /* Debug */,
-				37F549BC2F81E1C300950D12 /* Release */,
+				37F549BB2F81E1C300950D12 /* Debug configuration for PBXNativeTarget "PongClone macOS" */,
+				37F549BC2F81E1C300950D12 /* Release configuration for PBXNativeTarget "PongClone macOS" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
