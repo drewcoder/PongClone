@@ -35,16 +35,58 @@ class GameScene: SKScene {
     
     override func didMove(to view: SKView) {
         setupGame()
+        resetBall()
+        resetPaddles()
+        
     }
     
     private func setupGame() {
         // Setup game objects here
     }
     
+    private func resetBall() {
+        
+    }
+        
+    private func resetPaddles() {
+        
+    }
+    
+    
     // MARK: - Game Logic
     
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
+        
+        func moveBall() {
+            
+        }
+        
+        func moveAIPaddle() {
+            
+        }
+        
+        func checkCollisions() {
+            
+        }
+        
+        func updateScore() {
+            
+        }
+        
+        func checkGameOver() {
+            
+        }
+        
+        func resetGame() {
+            
+        }
+        
+        func announceWinner() {
+            
+        }
+        
+        
     }
 }
 
