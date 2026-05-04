@@ -12,14 +12,14 @@ class GameScene: SKScene {
     // MARK: - Properties
     
     // Game objects
-    private var ball: SKShapeNode?
-    private var playerPaddle: SKShapeNode?
-    private var opponentPaddle: SKShapeNode?
+    var ball: SKShapeNode?
+    var playerPaddle: SKShapeNode?
+    var opponentPaddle: SKShapeNode?
     
     // Score
-    private var playerScore = 0
-    private var opponentScore = 0
-    private var scoreLabel: SKLabelNode?
+    var playerScore = 0
+    var opponentScore = 0
+    var scoreLabel: SKLabelNode?
     
     // MARK: - Scene Setup
     
