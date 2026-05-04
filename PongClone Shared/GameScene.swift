@@ -29,7 +29,7 @@ class GameScene: SKScene {
             abort()
         }
         
-        scene.scaleMode = .aspectFill
+        scene.scaleMode = .aspectFit
         return scene
     }
     
