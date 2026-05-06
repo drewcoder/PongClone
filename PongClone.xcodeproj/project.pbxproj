@@ -18,8 +18,11 @@
 			membershipExceptions = (
 				Actions.sks,
 				Assets.xcassets,
+				GameManager.swift,
 				GameScene.sks,
 				GameScene.swift,
+				Opponent.swift,
+				Player.swift,
 			);
 			target = 37F549782F81E1C300950D12 /* PongClone iOS */;
 		};
@@ -35,8 +38,11 @@
 			membershipExceptions = (
 				Actions.sks,
 				Assets.xcassets,
+				GameManager.swift,
 				GameScene.sks,
 				GameScene.swift,
+				Opponent.swift,
+				Player.swift,
 			);
 			target = 37F549892F81E1C300950D12 /* PongClone tvOS */;
 		};
@@ -52,8 +58,11 @@
 			membershipExceptions = (
 				Actions.sks,
 				Assets.xcassets,
+				GameManager.swift,
 				GameScene.sks,
 				GameScene.swift,
+				Opponent.swift,
+				Player.swift,
 			);
 			target = 37F549992F81E1C300950D12 /* PongClone macOS */;
 		};
